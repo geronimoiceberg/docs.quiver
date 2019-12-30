@@ -3,7 +3,7 @@ description: Generate addresses
 
 # Generate addresses
 
-Generate addresses where you can receive Arrow.
+Generate addresses so you can receive Arrow.
 
 1. In Quiver, click the **Receive** tab.
 1. Click the **New Address** button.
