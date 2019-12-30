@@ -1,0 +1,72 @@
+# Project information
+site_name: Quiver
+
+# Extra
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/Arrowchain/arrowwallet'
+    - type: 'twitter'
+      link: 'https://twitter.com/arrowchain'
+    - type: 'telegram'
+      link: 'https://t.me/arrowchain'
+    - type: 'medium'
+      link: 'https://medium.com/@arrowchain'
+  support:
+    email: info@arrowchain.io
+    website: https://docs.quiver.com
+  search:
+    language: 'en'
+    tokenizer: '[\s]+'
+
+# Repository
+repo_name: 'Arrowchain/arrowwallet'
+repo_url: 'https://github.com/Arrowchain/arrowwallet'
+
+theme:
+  name: material
+  custom_dir: docs/custom_theme
+  palette:
+    primary: cyan
+    accent: red
+  favicon: favicon.ico
+
+nav:
+  - Home: index.md
+  - Get started:
+      - System requirements: get-started/system-requirements.md
+      - Install Quiver: get-started/install-quiver.md
+      - Start Quiver: get-started/start-quiver.md
+  - How to:
+      - Make transactions:
+        - Generate addresses: how-to/make-transactions/generate-addresses.md
+        - Receive and send Arrow: how-to/make-transactions/receive-send-arrow.md
+      - Backup and restore: how-to/backup-and-restore.md
+      - Upgrade: how-to/upgrade.md
+      - Create an address book: how-to/create-address-book.md
+      - Troubleshoot:
+        - Find data directories: how-to/troubleshoot/find-data-dir.md
+        - Fix syncing problems: how-to/troubleshoot/fix-syncing-problems.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
