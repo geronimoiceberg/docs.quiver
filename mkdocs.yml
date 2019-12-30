@@ -39,6 +39,7 @@ nav:
       - Start Quiver: get-started/start-quiver.md
   - How to:
       - Make transactions:
+        - Add existing addresses: how-to/make-transactions/add-existing-addresses.md
         - Generate addresses: how-to/make-transactions/generate-addresses.md
         - Receive and send Arrow: how-to/make-transactions/receive-send-arrow.md
       - Backup and restore: how-to/backup-and-restore.md
