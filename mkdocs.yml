@@ -47,3 +47,23 @@ nav:
       - Troubleshoot:
         - Find data directories: how-to/troubleshoot/find-data-dir.md
         - Fix syncing problems: how-to/troubleshoot/fix-syncing-problems.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
