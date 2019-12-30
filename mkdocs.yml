@@ -24,8 +24,8 @@ repo_name: 'Arrowchain/arrowwallet'
 repo_url: 'https://github.com/Arrowchain/arrowwallet'
 
 theme:
-  name: null
-  custom_dir: 'docs/custom_theme'
+  name: material
+  custom_dir: docs/custom_theme
   palette:
     primary: cyan
     accent: red
