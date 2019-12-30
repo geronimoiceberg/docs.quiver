@@ -18,7 +18,7 @@ description: Receive and send Arrow
 1. In the **Address** field, specify the recipient's address.
 
     !!! Tip
-        Select a recipient's address by using [the address book](create-address-book.md).
+        Select a recipient's address by using [the address book](../create-address-book.md).
 
 1. In the **Amount** field, specify the amount of Arrow to send.
 1. Click **Send**.
