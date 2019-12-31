@@ -44,8 +44,10 @@ nav:
         - Create an address book: how-to/manage-addresses/create-address-book.md
       - Make transactions:
         - Receive and send Arrow: how-to/make-transactions/receive-send-arrow.md
-      - Backup and restore: how-to/backup-and-restore.md
-      - Upgrade: how-to/upgrade.md
+      - Maintain Quiver:
+        - Backup and restore: how-to/maintain-quiver/backup-and-restore.md
+        - Rescan: how-to/maintain-quiver/rescan.md
+        - Upgrade: how-to/maintain-quiver/upgrade.md
       - Troubleshoot:
         - Find data directories: how-to/troubleshoot/find-data-dir.md
         - Fix syncing problems: how-to/troubleshoot/fix-syncing-problems.md

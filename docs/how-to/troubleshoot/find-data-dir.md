@@ -1,7 +1,7 @@
-description: Find data directories
+description: Find the data directory
 <!--- END of page meta data -->
 
-# Find data directories
+# Find the data directory
 
 Data directories store the `wallet.dat` file, the `arrow.conf` file, and all blockchain data. By default, data directories are in the following locations:
 
