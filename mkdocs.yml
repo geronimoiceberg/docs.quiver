@@ -51,6 +51,7 @@ nav:
         - Upgrade: how-to/maintain-quiver/upgrade.md
       - Troubleshoot:
         - Find data directories: how-to/troubleshoot/find-data-dir.md
+        - Review debug log: how-to/troubleshoot/review-log.md
         - Fix syncing problems: how-to/troubleshoot/fix-syncing-problems.md
 
 markdown_extensions:
