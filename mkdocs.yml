@@ -46,6 +46,7 @@ nav:
         - Receive and send Arrow: how-to/make-transactions/receive-send-arrow.md
       - Maintain Quiver:
         - Backup and restore: how-to/maintain-quiver/backup-and-restore.md
+        - Reindex: how-to/maintain-quiver/reindex.md
         - Rescan: how-to/maintain-quiver/rescan.md
         - Upgrade: how-to/maintain-quiver/upgrade.md
       - Troubleshoot:
