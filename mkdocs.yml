@@ -54,6 +54,8 @@ nav:
         - Find data directories: how-to/troubleshoot/find-data-dir.md
         - Review debug log: how-to/troubleshoot/review-log.md
         - Fix syncing problems: how-to/troubleshoot/fix-syncing-problems.md
+  - Reference:
+        - Arrow explorers: reference/arrow-explorers.md
 
 markdown_extensions:
   - admonition
