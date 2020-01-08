@@ -5,6 +5,10 @@ description: Backup private keys and data
 
 Backup [one private key](#backup-one-private-key), [all your private keys](#backup-all-private-keys), or [the wallet data file](#backup-wallet-data-file). Use the backup of your `wallet.dat` file to [restore your wallet](#restore-your-wallet).
 
+## Before you begin
+
+Close Quiver.
+
 ## Backup one private key
 
 1. Open the **Receive** tab.
