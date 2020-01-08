@@ -44,6 +44,7 @@ nav:
         - Create an address book: how-to/manage-addresses/create-address-book.md
       - Make transactions:
         - Receive and send Arrow: how-to/make-transactions/receive-send-arrow.md
+        - View transactions: how-to/make-transactions/view-transactions.md
       - Maintain Quiver:
         - Backup and restore: how-to/maintain-quiver/backup-and-restore.md
         - Reindex: how-to/maintain-quiver/reindex.md
