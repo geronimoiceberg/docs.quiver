@@ -45,7 +45,7 @@ nav:
       - Make transactions:
         - Receive and send Arrow: how-to/make-transactions/receive-send-arrow.md
         - View transactions: how-to/make-transactions/view-transactions.md
-        - Send and view memos: how-to/make-transactions/send-view-memos.md
+        - Send, view, and reply to memos: how-to/make-transactions/send-view-reply-to-memos.md
       - Maintain Quiver:
         - Backup and restore: how-to/maintain-quiver/backup-and-restore.md
         - Reindex: how-to/maintain-quiver/reindex.md
