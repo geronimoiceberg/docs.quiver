@@ -38,14 +38,15 @@ nav:
       - Install Quiver: get-started/install-quiver.md
       - Start Quiver: get-started/start-quiver.md
   - How to:
-      - Manage addresses:
-        - Add existing addresses: how-to/manage-addresses/add-existing-addresses.md
-        - Generate addresses: how-to/manage-addresses/generate-addresses.md
-        - Create an address book: how-to/manage-addresses/create-address-book.md
-      - Make transactions:
-        - Receive and send Arrow: how-to/make-transactions/receive-send-arrow.md
-        - View transactions: how-to/make-transactions/view-transactions.md
-        - Send, view, and reply to memos: how-to/make-transactions/send-view-reply-to-memos.md
+      - Maintain addresses:
+        - Add existing addresses: how-to/maintain-addresses/add-existing-addresses.md
+        - Generate addresses: how-to/maintain-addresses/generate-addresses.md
+        - Create an address book: how-to/maintain-addresses/create-address-book.md
+      - Manage transactions:
+        - Receive and send Arrow: how-to/manage-transactions/receive-send-arrow.md
+        - View transactions: how-to/manage-transactions/view-transactions.md
+        - Export transactions: how-to/manage-transactions/export-transactions.md
+        - Send, view, and reply to memos: how-to/manage-transactions/send-view-reply-to-memos.md
       - Maintain Quiver:
         - Backup and restore: how-to/maintain-quiver/backup-and-restore.md
         - Reindex: how-to/maintain-quiver/reindex.md

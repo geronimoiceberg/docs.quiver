@@ -3,7 +3,7 @@ description: Receive and send Arrow
 
 # Receive Arrow
 
-Before you can receive Arrow, you must have [an Arrow address](../manage-addresses/generate-addresses.md).
+Before you can receive Arrow, you must have [an Arrow address](../maintain-addresses/generate-addresses.md).
 
 1. On the **Receive** tab, select the address you want to use from the list under **Address Type**. A copiable version fo the address is displayed in the **Address** box.
 
@@ -20,7 +20,7 @@ To send Arrow, you must have an address with an Arrow balance.
 1. In the **Address** field, specify the recipient's address.
 
     !!! Tip
-        Select a recipient's address by using [the address book](../manage-addresses/create-address-book.md).
+        Select a recipient's address by using [the address book](../maintain-addresses/create-address-book.md).
 
 1. In the **Amount** field, specify the amount of Arrow to send.
 1. Click **Send**.
