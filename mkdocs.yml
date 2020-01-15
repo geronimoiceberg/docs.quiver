@@ -20,8 +20,8 @@ extra:
     tokenizer: '[\s]+'
 
 # Repository
-repo_name: 'Arrowchain/arrowwallet'
-repo_url: 'https://github.com/Arrowchain/arrowwallet'
+repo_name: 'Arrowchain/docs.quiver'
+repo_url: 'https://github.com/Arrowchain/docs.quiver'
 
 theme:
   name: material
