@@ -15,6 +15,10 @@ Before you can receive Arrow, you must have [an Arrow address](../maintain-addre
 
 To send Arrow, you must have an address with an Arrow balance.
 
+!!! Warning "Sending many UTXOs in one batch"
+
+    If you have many unspent transactions (UTXOs) in your wallet and you try to spend many of them, computing the transaction might take a long time.
+
 1. On the **Send** tab, select the address from which you want to send Arrow. Only addresses with balances are listed.
 
 1. In the **Address** field, specify the recipient's address.
@@ -23,4 +27,8 @@ To send Arrow, you must have an address with an Arrow balance.
         Select a recipient's address by using [the address book](../maintain-addresses/create-address-book.md).
 
 1. In the **Amount** field, specify the amount of Arrow to send.
+
+    !!! Tip
+        "If you want to send the entire balance of an address, check the **Max Available** box.
+        
 1. Click **Send**.

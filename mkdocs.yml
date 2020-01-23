@@ -56,6 +56,10 @@ nav:
         - Find data directories: how-to/troubleshoot/find-data-dir.md
         - Review debug log: how-to/troubleshoot/review-log.md
         - Fix syncing problems: how-to/troubleshoot/fix-syncing-problems.md
+      - Run arrowd:
+        - Install arrowd: how-to/run-arrowd/install-arrowd.md
+        - Compile arrowd: how-to/run-arrowd/compile-arrowd.md
+        - Configuring arrowd: how-to/run-arrowd/configuring-arrowd.md
   - Concepts:
       - Memos: concepts/memos.md
   - Reference:

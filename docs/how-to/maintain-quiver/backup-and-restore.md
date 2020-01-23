@@ -26,6 +26,10 @@ Close Quiver.
 1. Select **File->Export all private keys**. All your private keys are displayed in a new window.
 1. Store them securely.
 
+!!! Tip "Save keys as a file"
+
+    If you'd like to save the keys as a file, click **Save** and place them in a secure place.
+
 ## Backup wallet data file
 
 1. Go to the [default data directory](../troubleshoot/find-data-dir.md) for your platform.

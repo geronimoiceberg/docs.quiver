@@ -5,7 +5,7 @@ description: Rescan
 
 If you restored a backup version of Quiver or modified Quiver by adding new addresses or removing transactions, use the rescan function.
 
-Rescanning explores every downloaded block, searches for transactions affecting your Quiver addresses, and updates the Quiver's transaction store and balances to reflect those transactions.
+Rescanning explores every downloaded block, searches for transactions affecting your Quiver addresses, and updates Quiver's transaction store and balances to reflect those transactions.
 
 To rescan Quiver:
 

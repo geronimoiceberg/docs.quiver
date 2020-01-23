@@ -26,7 +26,7 @@ If you use the Debian or Ubuntu operating system, [use the `.deb` package](#use-
 Run the following commands in a terminal window:
 
 ```
-sudo dpkg -i linux-deb-quiver-0.1.7.deb
+sudo dpkg -i linux-deb-quiver-0.1.8.deb
 sudo apt install -f
 ```
 
@@ -35,8 +35,8 @@ sudo apt install -f
 Run the following commands in a terminal window:
 
 ```
-tar -xvf quiver-v0.1.7.tar.gz
-./quiver-v0.1.7/quiver
+tar -xvf quiver-v0.1.8.tar.gz
+./quiver-v0.1.8/quiver
 ```
 
 ## Compiling from source

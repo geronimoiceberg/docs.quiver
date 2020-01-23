@@ -27,7 +27,7 @@ description: Fix syncing problems
 
 1. Delete all files except `arrow.conf`, `wallet.dat`, or `quiver-lite-wallet.dat`.
 
-1. Unpack the contents of `Arrow-bootstrap.rar` in `%appdata%\arrow`. The blocks and chainstate directories are extracted.
+1. Unpack the contents of `Arrow-bootstrap.rar` in `%HOMEPATH%\AppData\Roaming\Arrow` (by default). The blocks and chainstate directories are extracted.
 
 1. Open Quiver, and let it sync.
 
@@ -35,6 +35,6 @@ description: Fix syncing problems
 
 1. Delete all files except `arrow.conf` and `wallet.dat`.
 
-1. Unpack the contents of `Arrow-bootstrap.rar` into the Quiver folder. The blocks and chainstate directories are extracted.
+1. Unpack the contents of `Arrow-bootstrap.rar` in `~/.arrow` (by default). The blocks and chainstate directories are extracted.
 
 1. Open Quiver, and let it sync.
