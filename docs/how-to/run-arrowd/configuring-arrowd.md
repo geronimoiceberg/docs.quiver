@@ -7,10 +7,10 @@ The arrow.conf file configures how arrowd operates. You can put the following ex
 
 !!! Example
 
-    {username} - Any username you would like
-    {password} - A secure password
-    {internal_ip} - Your `arrowd` host's IP address
-    {local_subnet} - Your local subnet (or use localhost if you would only like the server itself to be allowed to connect)
+    {username} - Any username you would like  
+    {password} - A secure password  
+    {internal_ip} - Your `arrowd` host's IP address  
+    {local_subnet} - Your local subnet (or use localhost if you would only like the server itself to be allowed to connect)  
     {max_conn} - any integer, the higher the number the more inbound and outbound arrowd servers can connect
 ```
 # Allow local hosts to connect to RPC with proper auth

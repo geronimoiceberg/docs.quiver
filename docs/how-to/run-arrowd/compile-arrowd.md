@@ -82,11 +82,11 @@ cd arrow
 ./zcutil/build.sh -j$(sysctl -n hw.ncpu)
 ```
 
-## Fetch params
+### Fetch params
 
 ``` 
 ./zcutil/fetch-params.sh
- ```
+```
 
 ### Create config file
   * Replace `{username}` with your preferred RPC username
@@ -101,7 +101,8 @@ echo "addnode=85.15.179.171:7654" >> ~/Library/Application Support/arrow/arrow.c
 echo "addnode=65.100.172.203:7654" >> ~/Library/Application Support/arrow/arrow.conf
 echo "addnode=34.204.183.163:7654" >> ~/Library/Application Support/arrow/arrow.conf
 ```
+
 ### Run arrowd
 ``` 
 ./src/arrowd
- ```
+```
