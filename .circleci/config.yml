@@ -86,7 +86,7 @@ jobs:
             docker create -v /doc --name docVol alpine:3.4 /bin/true
             # copy files into this volume
             docker cp ./ docVol:/doc
-            docker run --rm --volumes-from docVol -w /doc pipelinecomponents/markdownlint mdl --style all . > markdownlint.out
+            docker run --rm --volumes-from docVol -w /doc pipelinecomponents/markdownlint:latest mdl --style all . > markdownlint.out
       - store_artifacts:
           path: ./markdownlint.out
           destination: markdownlint.out
