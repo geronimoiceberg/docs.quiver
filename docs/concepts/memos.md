@@ -3,7 +3,7 @@ description: Memos
 
 # Memos
 
-When you receive ARW, you can see the amount of ARW received, the recipient address, and the date and time you recieved it. Optionally, you can retrieve the transaction ID, which you can use to view the encrypted transaction on the blockchain through [block explorers](../reference/arrow-explorers.md).
+When you receive ARW, you can see the amount of ARW received, the recipient address, and the date and time you recieved it. Optionally, you can retrieve the transaction ID, which you can use to view the encrypted transaction on the blockchain through [block explorers](../../reference/arrow-explorers.md).
 
 By design, Arrow hides information about senders, including addresses. Private transactions in Arrow are just that —  private.
 
