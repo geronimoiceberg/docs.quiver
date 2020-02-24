@@ -59,7 +59,7 @@ nav:
       - Run arrowd:
         - Install arrowd: how-to/run-arrowd/install-arrowd.md
         - Compile arrowd: how-to/run-arrowd/compile-arrowd.md
-        - Configuring arrowd: how-to/run-arrowd/configuring-arrowd.md
+        - Configure arrowd: how-to/run-arrowd/configure-arrowd.md
   - Concepts:
       - Memos: concepts/memos.md
   - Reference:

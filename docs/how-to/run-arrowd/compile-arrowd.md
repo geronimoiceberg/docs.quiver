@@ -3,28 +3,42 @@ description: Compile arrowd
 
 # Compile arrowd
 
+## System requirements
 
-### System requirements:
-
-2 or more CPU threads  
-64-bit OS  
-4GB+ RAM  
-20GB+ storage  
+* 2 or more CPU threads  
+* 64-bit OS  
+* 4GB+ RAM  
+* 20GB+ storage  
 
 ## Build for Linux from source
 
-### Install Ubuntu/Debian dependencies
+Install dependencies for your operating system:
+
+* [Ubuntu or Debian](#install-ubuntu-or-debian-dependencies)
+
+* [Fedora, CentOS 8, or an alternative](#install-fedora-dependencies)
+
+* [CentOS 7 or earlier releases](#install-centos-dependencies)
+
+### Install Ubuntu or Debian dependencies
 
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget curl bsdmainutils automake
 ```
-### Install Fedora dependencies (if using Fedora/CentOS 8 or an alternative)
+
+### Install Fedora dependencies
+
+If you use Fedora, CentOS 8, or an alternative, use this method.
+
 ```
 sudo dnf install git pkgconfig automake autoconf ncurses-devel python python-zmq wget gtest-devel gcc gcc-c++ libtool curl patch
 ```
 
-### Install CentOS dependencies (if using CentOS 7 or lower)
+### Install CentOS dependencies
+
+If you use CentOS 7 or earlier releases, use this method.
+
 ```
 sudo yum install git pkgconfig automake autoconf ncurses-devel python python-zmq wget gtest-devel gcc gcc-c++ libtool curl patch
 ```
@@ -37,8 +51,10 @@ cd arrow
 ./zcutil/build.sh -j$(nproc)
 ```
 
-### Create config file
-  * Replace `{username}` with your preferred RPC username
+### Create a config file
+
+Replace `{username}` with your preferred RPC user name.
+
 ```
 mkdir ~/.arrow
 echo "rpcuser={username}" >> ~/.arrow/arrow.conf
@@ -84,12 +100,14 @@ cd arrow
 
 ### Fetch params
 
-``` 
+```
 ./zcutil/fetch-params.sh
 ```
 
-### Create config file
-  * Replace `{username}` with your preferred RPC username
+### Create a config file
+
+Replace `{username}` with your preferred RPC user name.
+
 ```
 mkdir ~/Library/Application Support/arrow/
 echo "rpcuser={username}" >> ~/Library/Application Support/arrow/arrow.conf
@@ -103,6 +121,7 @@ echo "addnode=34.204.183.163:7654" >> ~/Library/Application Support/arrow/arrow.
 ```
 
 ### Run arrowd
-``` 
+
+```
 ./src/arrowd
 ```
